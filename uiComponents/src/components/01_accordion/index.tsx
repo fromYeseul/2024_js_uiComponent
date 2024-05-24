@@ -8,20 +8,34 @@ import Accordion7 from "./7_r";
 import Accordion8 from "./8_r";
 import cx from "./cx";
 
+// const Accordions = () => {
+//   return (
+//     <div className={cx("Accordions")}>
+//       <h2>아코디언</h2>
+//       <Accordion1 />
+//       <Accordion2 />
+//       <Accordion3 />
+//       <Accordion4V />
+//       <Accordion5 />
+//       <Accordion6 />
+//       <Accordion7 />
+//       <Accordion8 />
+//     </div>
+//   );
+// };
+
+// export default Accordions;
+
+
 const Accordions = () => {
   return (
-    <div className={cx("Accordions")}>
+    <div className={cx('Accordions')}>
       <h2>아코디언</h2>
       <Accordion1 />
       <Accordion2 />
       <Accordion3 />
       <Accordion4V />
-      <Accordion5 />
-      <Accordion6 />
-      <Accordion7 />
-      <Accordion8 />
     </div>
-  );
-};
-
-export default Accordions;
+  )
+}
+export default Accordions

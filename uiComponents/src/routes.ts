@@ -252,3 +252,9 @@ export const routes: Record<ROUTE_PATH, ROUTE> = {
 export const isParentRoute = (route: ROUTE): route is ParentRoute => Array.isArray(route.children)
 
 export const gnbRootList = (routes['/'] as ParentRoute).children.map(r => routes[r])
+
+
+// const Accordion1= () =>{
+//   return <div>아코디언1</div>
+// }
+// export default Accordion1
